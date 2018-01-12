@@ -1,0 +1,1 @@
+export const GET_GEMEENTES = 'GET_GEMEENTES'

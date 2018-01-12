@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F7F9FB;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #222;
+}
+
+.navbar {
+  z-index: 999 !important;
+  position: fixed !important;
+  width:100%;
+  top:0;
+  background: #31708E;
+}
+
+.errormessage {
+  margin-top:50px;
+  font-size: 30px;
+  color: #9ab;
+}
+
+#left-part {
+  width: 50%;
+  float:left;
+  padding-top: 9vh;
+}
+
+#inner-left-part {
+  width:50%;
+  float:left;
+}
+
+#inner-right-part {
+  width:50%;
+  float:right;
+}
+
+#paginationlist {
+  float:left;
+  width:100%;
+  border-top: 1px solid #ddd;
+  padding-top: 16px;
+  margin-top:30px;
+}
+
+#map {
+  position: fixed;
+  width: 50% !important;
+  height: 92.5vh !important;
+  right:0;
+  top:7vh;
+}
+
+#gemeentelijstul {
+  padding:0;
+  border-top: 1px solid #ddd;
+}
+
+#gemeentelijst {
+  margin:0;
+  list-style: none;
+  width: 96%;
+  padding:12px 30px;
+  padding-bottom: 20px;
+  margin: 12px 2%;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.gemeenteindex {
+  width:40px;
+  height:40px;
+  font-weight: bolder;
+  padding:9px 6px 0px 6px;
+  margin-right:10px;
+  margin-bottom:2px;
+  text-align:center;
+  color:#ddd;
+  float:left;
+  background-color: #31708E;
+  border-radius: 50%;
+}
+
+.gemeentelisttitle {
+  font-size: 36px;
+  margin-left: 50px;
+  margin-bottom:-10px;
+}
+
+.listitemleft {
+  float:left;
+}
+
+.listitemright {
+  float:right;
+  text-align: center;
+}
+
+.listitemright .fa-map-marker {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.fa-map-marker {
+  color: #f44;
+}
+
+.fa-info-circle {
+  color: #31708E;
+}
+
+.fa-map-marker:hover {
+  color: #d22;
+  cursor:pointer;
+}
+
+.fa-info-circle:hover {
+  color: #8FC1E3;
+  cursor:pointer;
+}
+
+.fa-question-circle {
+  margin-bottom:-5px;
+  color: #31708E;
+  z-index:9999;
+}
+
+.fa-question-circle:hover {
+  color: #8FC1E3;
+  cursor:pointer;
+}
+
+a.page-link {
+  color: #31708E;
+}
+
+a.page-link.btn-primary {
+  background: #31708E !important;
+  border:1px solid #20607D !important;
+}
+
+.criteria-item {
+  min-height: 100px;
+}
+
+.reset-criteria {
+  padding-top: 16px;
+}
+
+.resetbutton {
+  width:210px;
+  background: #31708E !important;
+  border: 1px solid #20607D !important;
+}
+
+.resetbutton:hover {
+  cursor: pointer;
+  background-color: #20607D !important;
+}
+
+.progress-item {
+  width: 550px;
+}
+
+.light-text {
+  color:#aaa;
+}
+
+#slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.select {
+  width: 210px !important;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.tooltip .tooltip-main {
+  width:30px;
+  height:10px;
+}
